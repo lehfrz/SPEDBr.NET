@@ -138,6 +138,12 @@ namespace SpedBr.SpedFiscal
             /// </summary>
             [SpedCampos(13, "IND_GIAF4", "LE", 1, 0, true)]
             public SimOuNao IndGiaf4 { get; set; }
+
+            // <summary>
+            ///     Reg. 1250 – Possui informações consolidadas de saldos de restituição, ressarcimento e complementação do ICMS? S – Sim;N – Não
+            /// </summary>
+            [SpedCampos(13, "IND_REST_RESSARC_COMPL_ICMS", "LE", 1, 0, true)]
+            public SimOuNao IndResRessarcComplIcms { get; set; }
         }
 
         /// <summary>
